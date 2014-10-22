@@ -1,4 +1,4 @@
-bioquimica
+Ejemplos básicos de java
 ==========
 
-bioquimica
+herencia, polimorfismo, interfaces, injección de dependencias, etc.
