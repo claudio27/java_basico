@@ -12,7 +12,8 @@ public class Principal{
 		juan.saludaHijo();
 
 		// polimorfismo, el padre puede usar métodos de la clase hija, que hereda
-
+ //que mierd que no funciona ahora
+		
 		papa = juan;
 
 		papa.saludaHijo();
