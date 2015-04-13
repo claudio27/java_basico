@@ -11,7 +11,9 @@ int[] a = ord.crea(12);
 
 ord.imprime(a);
 
+int[] b = ord.selectionSort(a);
 
+ord.imprime(b);
 
 
 }

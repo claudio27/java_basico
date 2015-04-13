@@ -50,7 +50,37 @@ for(int i=0; i < arr.length; i++){
 
 }
 
-	
+	/**
+		@param a[] int, arreglo desordenado
+		@return a[] int, arreglo ordenado
+	*/
+
+	public int[] selectionSort(int[] a){
+		
+		for(int i = 0; i < (a.length - 1); i++){
+				
+			int minimo = i;
+			for(int j = i + 1; j < a.length; j++){
+			
+				if(a[j] < a[minimo]){
+					minimo = j; // ! burbuja
+				}
+
+			}
+			//intercambiar lista[i], lista[minimo]
+			int aux = a[i];
+			a[i] = a[minimo];
+			a[minimo] = aux;
+			//método que imprime cada pasoa
+		//	System.out.println("Paso : "+ i );
+			
+			imprime(a);
+			
+		}
+
+		return a;
+
+	}	
 
 
 }
